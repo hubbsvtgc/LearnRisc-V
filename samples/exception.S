@@ -17,7 +17,7 @@ my_trap_base:
 	csrw mepc, t1
 
 	/* Filter with mcause and
-	jump here */
+	handle here */
 
 mret;
 
